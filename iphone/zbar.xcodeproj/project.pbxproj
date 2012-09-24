@@ -40,6 +40,26 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		31D5A7E01610E6E5006C9602 /* ZBarSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3CEFAB1216347100D7A786 /* ZBarSDK.h */; };
+		31D5A7E11610E73A006C9602 /* ZBarReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3CEFAA1216347100D7A786 /* ZBarReaderViewController.h */; };
+		31FDADD01610E8FF0066E112 /* ZBarHelpController.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB3789A12A43C7E0059B07B /* ZBarHelpController.h */; };
+		31FDADD21610E9140066E112 /* ZBarCameraSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5D76C5136FA8F20069AEF5 /* ZBarCameraSimulator.h */; };
+		31FDADD31610E9140066E112 /* ZBarCaptureReader.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3CEFA51216347100D7A786 /* ZBarCaptureReader.h */; };
+		31FDADD41610E9140066E112 /* ZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3CEFA61216347100D7A786 /* ZBarImage.h */; };
+		31FDADD51610E9140066E112 /* ZBarImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3CEFA71216347100D7A786 /* ZBarImageScanner.h */; };
+		31FDADD61610E9140066E112 /* ZBarReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3CEFA81216347100D7A786 /* ZBarReaderController.h */; };
+		31FDADD71610E9140066E112 /* ZBarReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3CEFA91216347100D7A786 /* ZBarReaderView.h */; };
+		31FDADD81610E9140066E112 /* ZBarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3CEFAC1216347100D7A786 /* ZBarSymbol.h */; };
+		31FDADD91610E9140066E112 /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = DC67C11710A07A810033B702 /* zbar.h */; };
+		31FDADDA1610E91F0066E112 /* Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50463512034A4C009FF359 /* Decoder.h */; };
+		31FDADDB1610E91F0066E112 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50463612034A4C009FF359 /* Exception.h */; };
+		31FDADDC1610E91F0066E112 /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50463712034A4C009FF359 /* Image.h */; };
+		31FDADDD1610E91F0066E112 /* ImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50463812034A4C009FF359 /* ImageScanner.h */; };
+		31FDADDE1610E91F0066E112 /* Processor.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50463912034A4C009FF359 /* Processor.h */; };
+		31FDADDF1610E91F0066E112 /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50463A12034A4C009FF359 /* Scanner.h */; };
+		31FDADE01610E91F0066E112 /* Symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50463B12034A4C009FF359 /* Symbol.h */; };
+		31FDADE11610E91F0066E112 /* Video.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50463C12034A4C009FF359 /* Video.h */; };
+		31FDADE21610E91F0066E112 /* Window.h in Headers */ = {isa = PBXBuildFile; fileRef = DC50463D12034A4C009FF359 /* Window.h */; };
 		DC26004C118631C200FA987B /* ZBarCaptureReader.m in Sources */ = {isa = PBXBuildFile; fileRef = DC26004B118631C200FA987B /* ZBarCaptureReader.m */; };
 		DC290E281351496400A9B857 /* codabar.c in Sources */ = {isa = PBXBuildFile; fileRef = DC290E261351496400A9B857 /* codabar.c */; };
 		DC299A9D1208B5E8006A023C /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libzbar.a */; };
@@ -85,7 +105,7 @@
 		DC3CF29A1218359400D7A786 /* ReaderSample in Copy Examples */ = {isa = PBXBuildFile; fileRef = DC3CF2081218358C00D7A786 /* ReaderSample */; };
 		DC3CF29B1218359400D7A786 /* readertest in Copy Examples */ = {isa = PBXBuildFile; fileRef = DC3CF2651218358C00D7A786 /* readertest */; };
 		DC3CF2A312197A8C00D7A786 /* zbar-back.png in Copy Resources */ = {isa = PBXBuildFile; fileRef = DC3CF2A212197A7200D7A786 /* zbar-back.png */; };
-		DC3EBB2D119DDB2100107EE9 /* ZBarReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EBB2C119DDB2100107EE9 /* ZBarReaderViewController.m */; };
+		DC3EBB2D119DDB2100107EE9 /* ZBarReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EBB2C119DDB2100107EE9 /* ZBarReaderViewController.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		DC48C5341219FDDE0047193B /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3CF2A212197A7200D7A786 /* zbar-back.png */; };
 		DC48C5411219FE550047193B /* readertest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC48C5401219FE550047193B /* readertest.m */; };
 		DC48C57D121A1F410047193B /* ZBarSDK in Copy SDK */ = {isa = PBXBuildFile; fileRef = DC48C55F121A1E7F0047193B /* ZBarSDK */; };
@@ -100,19 +120,19 @@
 		DC67C17810A07AD30033B702 /* ean.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C12710A07AD30033B702 /* ean.c */; };
 		DC67C17A10A07AD30033B702 /* i25.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C12910A07AD30033B702 /* i25.c */; };
 		DC67C17F10A07AD30033B702 /* qr_finder.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C12E10A07AD30033B702 /* qr_finder.c */; };
-		DC67C18110A07AD30033B702 /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C13010A07AD30033B702 /* decoder.c */; };
-		DC67C18310A07AD30033B702 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C13210A07AD30033B702 /* error.c */; };
+		DC67C18110A07AD30033B702 /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C13010A07AD30033B702 /* decoder.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		DC67C18310A07AD30033B702 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C13210A07AD30033B702 /* error.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		DC67C18610A07AD30033B702 /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C13510A07AD30033B702 /* image.c */; };
-		DC67C18810A07AD30033B702 /* img_scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C13710A07AD30033B702 /* img_scanner.c */; };
+		DC67C18810A07AD30033B702 /* img_scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C13710A07AD30033B702 /* img_scanner.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		DC67C19510A07AD30033B702 /* bch15_5.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C14710A07AD30033B702 /* bch15_5.c */; };
 		DC67C19710A07AD30033B702 /* binarize.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C14910A07AD30033B702 /* binarize.c */; };
 		DC67C19910A07AD30033B702 /* isaac.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C14B10A07AD30033B702 /* isaac.c */; };
-		DC67C19B10A07AD30033B702 /* qrdec.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C14D10A07AD30033B702 /* qrdec.c */; };
+		DC67C19B10A07AD30033B702 /* qrdec.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C14D10A07AD30033B702 /* qrdec.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		DC67C19D10A07AD30033B702 /* qrdectxt.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C14F10A07AD30033B702 /* qrdectxt.c */; };
-		DC67C19E10A07AD30033B702 /* rs.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15010A07AD30033B702 /* rs.c */; };
+		DC67C19E10A07AD30033B702 /* rs.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15010A07AD30033B702 /* rs.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		DC67C1A010A07AD30033B702 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15210A07AD30033B702 /* util.c */; };
 		DC67C1A310A07AD30033B702 /* refcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15510A07AD30033B702 /* refcnt.c */; };
-		DC67C1A510A07AD30033B702 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15710A07AD30033B702 /* scanner.c */; };
+		DC67C1A510A07AD30033B702 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15710A07AD30033B702 /* scanner.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		DC67C1A810A07AD30033B702 /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = DC67C15A10A07AD30033B702 /* symbol.c */; };
 		DC67C1C210A07B6B0033B702 /* ZBarHelpController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC67C1BE10A07B6B0033B702 /* ZBarHelpController.m */; };
 		DC67C1C310A07B6B0033B702 /* ZBarReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC67C1BF10A07B6B0033B702 /* ZBarReaderController.m */; };
@@ -120,7 +140,7 @@
 		DCB3789B12A43CAC0059B07B /* ZBarHelpController.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = DCB3789A12A43C7E0059B07B /* ZBarHelpController.h */; };
 		DCC93259137B50CB0040A82D /* EmbedReader in Copy Examples */ = {isa = PBXBuildFile; fileRef = DCC9324E137B509B0040A82D /* EmbedReader */; };
 		DCC9325A137B50CB0040A82D /* TabReader in Copy Examples */ = {isa = PBXBuildFile; fileRef = DCC9324F137B509B0040A82D /* TabReader */; };
-		DCDC6E3011ADCA8E00021380 /* ZBarReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDC6E2F11ADCA8E00021380 /* ZBarReaderView.m */; };
+		DCDC6E3011ADCA8E00021380 /* ZBarReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDC6E2F11ADCA8E00021380 /* ZBarReaderView.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		DCE9900D129719F100D2655C /* code93.c in Sources */ = {isa = PBXBuildFile; fileRef = DCE9900B129719F100D2655C /* code93.c */; };
 		DCF5C9AD11EA3AD100E7DC21 /* databar.c in Sources */ = {isa = PBXBuildFile; fileRef = DCF5C9AB11EA3AD100E7DC21 /* databar.c */; };
 /* End PBXBuildFile section */
@@ -582,12 +602,43 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		31D5A7DE1610E6CE006C9602 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D5A7E11610E73A006C9602 /* ZBarReaderViewController.h in Headers */,
+				31D5A7E01610E6E5006C9602 /* ZBarSDK.h in Headers */,
+				31FDADD01610E8FF0066E112 /* ZBarHelpController.h in Headers */,
+				31FDADD21610E9140066E112 /* ZBarCameraSimulator.h in Headers */,
+				31FDADD31610E9140066E112 /* ZBarCaptureReader.h in Headers */,
+				31FDADD41610E9140066E112 /* ZBarImage.h in Headers */,
+				31FDADD51610E9140066E112 /* ZBarImageScanner.h in Headers */,
+				31FDADD61610E9140066E112 /* ZBarReaderController.h in Headers */,
+				31FDADD71610E9140066E112 /* ZBarReaderView.h in Headers */,
+				31FDADD81610E9140066E112 /* ZBarSymbol.h in Headers */,
+				31FDADD91610E9140066E112 /* zbar.h in Headers */,
+				31FDADDA1610E91F0066E112 /* Decoder.h in Headers */,
+				31FDADDB1610E91F0066E112 /* Exception.h in Headers */,
+				31FDADDC1610E91F0066E112 /* Image.h in Headers */,
+				31FDADDD1610E91F0066E112 /* ImageScanner.h in Headers */,
+				31FDADDE1610E91F0066E112 /* Processor.h in Headers */,
+				31FDADDF1610E91F0066E112 /* Scanner.h in Headers */,
+				31FDADE01610E91F0066E112 /* Symbol.h in Headers */,
+				31FDADE11610E91F0066E112 /* Video.h in Headers */,
+				31FDADE21610E91F0066E112 /* Window.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		D2AAC07D0554694100DB518D /* libzbar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "libzbar" */;
 			buildPhases = (
 				D2AAC07B0554694100DB518D /* Sources */,
+				31D5A7DE1610E6CE006C9602 /* Headers */,
 			);
 			buildRules = (
 			);
